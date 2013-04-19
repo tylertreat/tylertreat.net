@@ -360,7 +360,7 @@ only screen and (                min-resolution: 2dppx) {
 @media all and (max-width: 75em) {
     body { font-size:8px; }
     section.init { height: auto; }
-    section .inner { position: static; }
+    section.inner { position: static; }
 }
 
 @media all and (max-width: 65em) {
@@ -378,12 +378,12 @@ only screen and (                min-resolution: 2dppx) {
     i { display: none !important; }
     .job img { display: none; }
     .job p { padding-left: 0; }
+    .project { max-width: none; margin-bottom: 2em; }
 }
 
 @media all and (max-width: 40em) {
     section.one { background-image:none; }
     h1 { font-size:7em; }
-    input[type=email] { width:20em; }
     br { display: none; }
     #sticky-navigation-wrapper { display:none; }
 }
