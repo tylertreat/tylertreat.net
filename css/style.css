@@ -63,12 +63,6 @@ h1 i, h2 i, h3 i {
     font-size:2em;
 }
 
-.job p {
-    margin:0 0 1.5em 0;
-    line-height: 1.8;
-    font-size:2em;
-}
-
 p.first {
     padding-top:1.5em;
     margin:0;
@@ -238,49 +232,6 @@ section.dark {
     background: rgb(224, 224, 224);
 }
 
-section.more {
-    background-image: url("../images/what.gif");
-    background-color: #3387c4;
-    color:#fff;
-}
-
-section.more a {
-    color:#fff;
-}
-
-section.more a span {
-    float: none;
-}
-
-section.close {
-    padding-top:0;
-}
-
-section.top {
-    padding-top:15em;
-}
-
-section.last {
-    padding-bottom:15em;
-}
-
-section.links {
-    max-width: 130em;
-    margin:0 auto;
-}
-
-section.links ol {
-    border-top:.09em dotted #f0f0f0;
-}
-
-section.links a {
-    border-bottom:.09em dotted #f0f0f0;
-}
-
-section.links a:hover {
-    border-color:#ddd;
-}
-
 #profile-picture {
     float: left;
     margin-top: 1.7em;
@@ -314,6 +265,9 @@ img.stackoverflow {
 }
 
 .job p {
+    margin:0 0 1.5em 0;
+    line-height: 1.8;
+    font-size:2em;
     padding-left: 315px;
 }
 
