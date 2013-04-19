@@ -370,14 +370,14 @@ only screen and (                min-resolution: 2dppx) {
 
 @media all and (max-width: 55em) {
     li a span { display: none; }
-    section.more { background-image:none; }
     #profile-picture { display: none; }
 }
 
 @media all and (max-width: 50em) {
-    section, section.light, section.top, section.last { padding:6em; }
-    section.close { padding-top:0; }
+    section, section.light, section.dark { padding:6em; }
     i { display: none !important; }
+    .job img { display: none; }
+    .job p { padding-left: 0; }
 }
 
 @media all and (max-width: 40em) {
