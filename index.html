@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tyler Treat</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no, minimum-scale = 1.0, maximum-scale = 1.0">
+        <meta name="apple-mobile-web-app-capable" content="no">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+        <link href='css/reset.css' rel='stylesheet' type='text/css'>
+        <link href='css/style.css' rel='stylesheet' type='text/css'>
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript">
+            if (typeof jQuery == 'undefined') {
+                document.write(unescape("%3Cscript src='js/jquery-1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+            }
+        </script>
+        <script type="text/javascript" src="js/waypoints.min.js"></script>
+        <script type="text/javascript" src="js/navbar.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="sticky-navigation-wrapper" style="float:left">
+            <div id="sticky-navigation">
+                    <ul id="menu">
+                        <li><a id="home-link" href="#" class="selected" onclick="menuSelect($('#home'), $(this))">HOME</a></li>
+                        <li><a id="about-link" href="#" onclick="menuSelect($('#about-me'), $(this))">ABOUT ME</a></li>
+                        <li><a id="professional-link" href="#" onclick="menuSelect($('#professional'), $(this))">PROFESSIONAL</a></li>
+                        <li><a id="academic-link" href="#" onclick="menuSelect($('#academic'), $(this))">ACADEMIC</a></li>
+                        <li><a id="blog-link" href="http://www.bravenewgeek.com">BLOG</a></li>
+                    </ul>
+            </div>
+        </div>
+        <section class="init main" id="home">
+            <div class="inner">
+                <h1 style="margin-bottom:0px"><span class="light">TYLER</span><span class="bold">TREAT</span></h1>
+                <h2><span class="light">Connoisseur of Code</span></h2>
+                <p>
+                    My name is Tyler Treat, and I'm a software developer. I specialize in Agile software development where
+                    my work ranges from web and mobile applications to enterprise-level systems.
+                </p>
+            </div>
+        </section>
+        <section class="init light" id="about-me">
+            <div id="profile-picture">
+                <img src="images/profile.jpg" />
+                <div id="social-media">
+                    <a href="https://twitter.com/tyler_treat" title="Twitter">
+                        <img class="twitter" src="images/icons/twitter-48.png" />
+                    </a>
+                    <a href="http://www.linkedin.com/in/ttreat/" title="LinkedIn">
+                        <img class="linkedin" src="images/icons/linkedin-48.png" />
+                    </a>
+                    <a href="https://github.com/tylertreat" title="GitHub">
+                        <img class="github" src="images/icons/github-48.png" />
+                    </a>
+                    <a href="http://stackoverflow.com/users/210070/tyler-treat" title="Stack Overflow">
+                        <img class="stackoverflow" src="images/icons/stackoverflow-48.png" />
+                    </a>
+                </div>
+            </div>
+            <div class="content">
+                <div id="profile">
+                    <h2>About Me</h2>
+                    <p>
+                        I'm studying software engineering at Iowa State University and will be graduating in December 2013.
+                        I have worked for several software companies with most of my experience being in .NET, Java, and Python,
+                        while also contributing to a number of open source projects. I worked as a freelance web developer and, later, a consultant before starting my own company developing web applications for small businesses.
+                    </p>
+                    <p>
+                        My expertise primarily lies in J2EE/Spring; however, I also have extensive experience working on the client side
+                        with respect to JavaScript, HTML, and CSS. I've worked largely on Agile and Kanban development teams.
+                    </p>
+                    <p>
+                        In my spare time, I build software for Android, including my open source application framework
+                        <a href="http://infinitumframework.com/">Infinitum</a>.
+                    </p>
+                    <p>
+                        p. 763.213.2147 | e. ttreat31@gmail.com
+                    </p>
+                </div>         
+            </div>
+            
+        </section>
+        <section class="init dark" id="professional">
+                <h2>Professional</h2>
+                <div class="job">
+                    <img src="images/professional/webfilings.png" />
+                    <p>
+                        I currently work at WebFilings on the backend application web services team developing platform APIs and
+                        other infrastructure for the company's product family. We work using a Kanban process and development is done primarily with Python on Google App Engine.
+                    </p>
+                </div>
+                <div class="job">
+                    <img src="images/professional/thomsonreuters.png" />
+                    <p>
+                        At Thomson Reuters, I worked as a developer for WestlawNext within the research-organizer group using
+                        disciplined Agile practices. Among other technologies, the research organizer was built on a stack comprised of J2EE, Spring MVC, REST, and Hibernate.
+                    </p>
+                </div>
+                <div class="job">
+                    <img src="images/professional/maverick.png" />
+                    <p>
+                        My time at Maverick Software Consulting involved working as a contractor for Thomson Reuters, in which I was
+                        a part of several projects. This included developing .NET and Java web applications built on technologies like
+                        ASP.NET, NHibernate, Spring.NET, Spring Batch, and jQuery.
+                    </p>
+                </div>
+                <div class="job">
+                    <img src="images/professional/clarionmedia.png" />
+                    <p>
+                        Clarion Media is a company I started after working as a freelancer and consultant doing web development for
+                        small businesses and organizations. It involved meeting with clients regularly to elicit project requirements
+                        and building websites with rich user experiences.
+                    </p>
+                </div>
+        </section>
+        <section class="init light" id="academic">
+            <div class="content">
+                <h2>Academic</h2>
+                <p>
+                    The majority of my time at Iowa State has been spent on practical aspects of software engineering, such as analysis of algorithms and data structures, software architecture, and collaborative group projects. I have found that working professionally has been an advantageous parallel to taking classes as I've been able to apply what I've learned in the workplace while doing the same in school. Below is a brief overview of some of my academic projects.
+                </p>
+            </div>
+            <div id="projects">
+                <div class="project">
+                    <h3>3M Listen-In</h3>
+                    <p>
+                        My senior design project is an Android application for 3M which allows healthcare professionals to connect
+                        multiple Bluetooth stethoscopes to a tablet or mobile device. With Listen-In, clinical educators can share 
+                        sound simultaneously with several students and leverage tools to aid in diagnosis, including a phonocardiograph.
+                    </p>
+                </div>
+                <div class="project">
+                    <h3>Real-Time Syncing</h3>
+                    <p>
+                        This project involved developing a framework for real-time document syncing to be used in distributed 
+                        applications. In this context, a document is any structured piece of data, and intended use cases
+                        include a collaborative whiteboard, text editor, and music composer. The system was built on top of ZeroMQ.
+                    </p>
+                </div>
+                <div class="project">
+                    <h3>PlanDroid</h3>
+                    <p>
+                        For a software engineering course, I led a team of developers to build a personal organizer for the Android platform called PlanDroid. The application allows users to manage their to-do list, calendar, and documents all from one place and on-the-go. Nearly 22,000 people have downloaded PlanDroid from Google Play.
+                    </p>
+                </div>
+                <div class="project">
+                    <img id="plandroid" src="images/work/plandroid.png" />
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
