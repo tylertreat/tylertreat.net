@@ -337,7 +337,6 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 @media all and (max-width: 40em) {
-    section.one { background-image:none; }
     h1 { font-size:7em; }
     br { display: none; }
     #sticky-navigation-wrapper { display:none; }
