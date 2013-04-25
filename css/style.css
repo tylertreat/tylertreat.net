@@ -299,7 +299,7 @@ only screen and (                min-resolution: 2dppx) {
 /* --------------------------------------- */
 
 @media all and (min-width: 93em) {
-    section .inner { background-color: rgba(255, 255, 255, 0.6); }
+    section .inner { background-color: rgba(255, 255, 255, 0.8); }
 }
 
 @media all and (max-width: 85em) {
